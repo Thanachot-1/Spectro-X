@@ -1,6 +1,6 @@
 import React from 'react';
 import { DurianAnalysis } from '../types';
-import { CheckCircle2, AlertCircle } from 'lucide-react';
+import { CheckCircle2 } from 'lucide-react';
 
 interface AnalysisResultProps {
   data: DurianAnalysis;

@@ -4,7 +4,7 @@ import AnalysisResult from './components/AnalysisResult';
 import SpectrumChart from './components/SpectrumChart';
 import RipenessTimeline from './components/RipenessTimeline';
 import { analyzeDurianImage } from './services/geminiService';
-import { DurianAnalysis, AnalysisState } from './types';
+import { AnalysisState } from './types';
 import { Leaf, RefreshCcw } from 'lucide-react';
 
 const App: React.FC = () => {
